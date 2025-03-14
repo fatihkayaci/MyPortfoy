@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Stencil', sans-serif;
+}
+body, html
+{
+    margin: 0;
+    padding: 0;
+    height: 98%;
+}
+body
+{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 100%;
+}
+.container main
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.content-left
+{
+    background-color: rgba(32, 32, 32, 0.658);
+    width: 15%;
+    height: 52%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.534);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content-left .img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50%;
+    background-color: rgba(32, 32, 32, 0.658);
+}
+.img img
+{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.content-left .title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.social-media 
+{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.social-media li
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 10px;
+}
+.social-media li  a
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(70, 68, 68, 0.5);
+    margin-top: 10px;
+}
+.profile
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-picture
+{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+/* content right */
+.content-right
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(32, 32, 32, 0.658);
+    border-radius: 20px;
+    width: 50%;
+}
+.container-right::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+.menu ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    float: right;
+    background-color: rgb(53, 51, 51);
+    padding-top: 2px;
+    width: 45%;
+    height: 35px;
+    border-radius: 0 15px 0px 15px;
+}
+.menu button
+{
+    background-color: rgb(53, 51, 51);
+    color: rgb(110, 108, 108);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.menu button p:hover
+{
+    color: rgb(85, 82, 82);
+}
+.menu button p:active
+{
+    color: rgb(59, 58, 58);
+}
+.menu-content
+{
+    flex: 1;
+    padding: 10px;
+    color: rgba(194, 191, 191, 0.801);
+}
+.menu-content h2
+{
+    color: rgb(75, 71, 71);
+}
+.idid
+{
+    display: flex;
+    flex-direction: column;
+}
+.development
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.development div
+{
+    display: flex;
+    margin-top: 20px;
+}
+.development div p
+{
+    margin-top: 10px;;
+}
+/* partner css */
+a
+{
+    color: rgba(255, 255, 255, 0.534);
+    text-decoration: none;
+}
+a:hover
+{
+    color: rgb(102, 100, 100);
+}
+/* Responsive Web Site */
+@media screen and (max-width: 1500px)
+{
+    .content-left
+    {
+        width: 18%;
+        height: 73%;
+    }
+    .profile-picture
+    {
+        width: 120px;
+        height: 120px;
+    }
+    .content-left .title
+    {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1170px)
+{
+    .title
+    {
+        font-size: 1px;
+    }
+}
