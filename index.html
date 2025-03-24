@@ -47,73 +47,119 @@
                 <div class="menu">
                     <ul>
                         <li>
-                            <button><p>About Me</p></button>
+                            <button id="aboutme" onclick="Active(this)" class="normally active">
+                                <p>About Me</p>
+                            </button>
                         </li>
                         <li>
-                            <button><p>Resume</p></button>
+                            <button id="resume" onclick="Active(this)" class="normally">
+                                <p>Resume</p>
+                            </button>
                         </li>
                         <li>
-                            <button><p>Project</p></button>
+                            <button id="project" onclick="Active(this)" class="normally">
+                                <p>Project</p>
+                            </button>
                         </li>
                     </ul>
                 </div>
-                <div class="menu-content">
-                    <div class="aboutme">
-                        <h2>About Me</h2>
+                <div id="aboutmecontent">
+                    <div class="menu-content">
+                        <div class="aboutme">
+                            <h2>About Me</h2>
+                            <br>
+                            <p>
+                                As a newly graduated computer engineer, I have built a strong
+                                foundation in software development and web technologies. While
+                                developing projects in Java, Python, C, PHP, and C#, I have gained
+                                proficiency in object-oriented programming (OOP) principles. My
+                                passion for software development is not just a profession but
+                                stems from my deep enthusiasm for problem-solving and creating
+                                innovative solutions. 
+                                <br>
+                                By adhering to SOLID principles, I strive to develop scalable and
+                                robust software solutions, applying my experience in web
+                                development, database management, and software architecture to
+                                various projects. I continuously work on algorithms and data
+                                structures to enhance my problem-solving skills and contribute to
+                                the industry by sharing my projects on platforms like GitHub.
+                                <br>
+                                My emphasis on teamwork and curiosity for learning new
+                                technologies enable me to take an active role in projects. With a
+                                mindset of continuous learning and self-improvement, I aim to
+                                leave a lasting and meaningful impact in the field of software
+                                development
+                            </p>
+                        </div>
                         <br>
-                        <p>
-                            As a newly graduated computer engineer, I have built a strong
-                            foundation in software development and web technologies. While
-                            developing projects in Java, Python, C, PHP, and C#, I have gained
-                            proficiency in object-oriented programming (OOP) principles. My
-                            passion for software development is not just a profession but
-                            stems from my deep enthusiasm for problem-solving and creating
-                            innovative solutions. 
-                            <br>
-                            By adhering to SOLID principles, I strive to develop scalable and
-                            robust software solutions, applying my experience in web
-                            development, database management, and software architecture to
-                            various projects. I continuously work on algorithms and data
-                            structures to enhance my problem-solving skills and contribute to
-                            the industry by sharing my projects on platforms like GitHub.
-                            <br>
-                            My emphasis on teamwork and curiosity for learning new
-                            technologies enable me to take an active role in projects. With a
-                            mindset of continuous learning and self-improvement, I aim to
-                            leave a lasting and meaningful impact in the field of software
-                            development
-                        </p>
-                    </div>
-                    <br>
-                    <div class="idid">
-                        <h2>What I'm Doing</h2>
-                        <div class="development">
-                            <div class="webdevelopment">
-                                <img src="static/icon/webdevelopment96.png" alt="">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi adipisci corrupti consequatur 
-                                     illum quae veritatis ab, unde, delectus cupiditate voluptates? Culpa totam ea aliquid molestias 
-                                     iste officiis assumenda iure odio, dolor ipsum laborum, inventore aspernatur earum, 
-                                    beatae deserunt sapiente quia veritatis animi necessitatibus quasi minima distinctio fugiat maiores. Minima?</p>
-                            </div>
-                            <div class="computerscience">
-                                <img src="static/icon/computerscience96.png" alt="">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi adipisci corrupti consequatur 
-                                    illum quae veritatis ab, unde, delectus cupiditate voluptates? Culpa totam ea aliquid molestias 
-                                    iste officiis assumenda iure odio, dolor ipsum laborum, inventore aspernatur earum, 
-                                   beatae deserunt sapiente quia veritatis animi necessitatibus quasi minima distinctio fugiat maiores. Minima?</p>
+                        <div class="idid">
+                            <h2>What I'm Doing</h2>
+                            <div class="development">
+                                <div class="webdevelopment">
+                                    <img src="static/icon/webdevelopment96.png" alt="">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi adipisci corrupti consequatur 
+                                         illum quae veritatis ab, unde, delectus cupiditate voluptates? Culpa totam ea aliquid molestias 
+                                         iste officiis assumenda iure odio, dolor ipsum laborum, inventore aspernatur earum, 
+                                        beatae deserunt sapiente quia veritatis animi necessitatibus quasi minima distinctio fugiat maiores. Minima?</p>
+                                </div>
+                                <div class="computerscience">
+                                    <img src="static/icon/computerscience96.png" alt="">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi adipisci corrupti consequatur 
+                                        illum quae veritatis ab, unde, delectus cupiditate voluptates? Culpa totam ea aliquid molestias 
+                                        iste officiis assumenda iure odio, dolor ipsum laborum, inventore aspernatur earum, 
+                                       beatae deserunt sapiente quia veritatis animi necessitatibus quasi minima distinctio fugiat maiores. Minima?</p>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <br>
-                    <div class="skills">
-                        <h2>Skills</h2>
-                        
-                        <div class="skilltable">
-
+                        <br>
+                        <div class="skills">
+                            <h2>Skills</h2>
+                            <div class="skilltable">
+                                <ul>
+                                    <li>
+                                        <p>.net</p>
+                                        <img src="static/icon/programming96.png" alt="">
+                                    </li>
+                                    <li>
+                                        <p>C#</p>
+                                        <img src="static/icon/csharp120.png" alt="">
+                                    </li>
+                                    <li>
+                                        <p>ASP.NET</p>
+                                        <img src="static/icon/flask120.png" alt="">
+                                    </li>
+                                    <li>
+                                        <p>SQL</p>
+                                        <img src="static/icon/java96.png" alt="">
+                                    </li>
+                                    <li>
+                                        <p>JavaScript</p>
+                                        <img src="static/icon/javascript120.png" alt="">
+                                    </li>
+                                    <li>
+                                        <p>Python</p>
+                                        <img src="static/icon/python120.png" alt="">
+                                    </li>
+                                    <li>
+                                        <p>Java</p>
+                                        <img src="static/icon/java96.png" alt="">
+                                    </li>
+                                    <li>
+                                        <p>Flask</p>
+                                        <img src="static/icon/flask120.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <button id="scrollLeft">←</button>
+                            <button id="scrollRight">→</button>
                         </div>
-
                     </div>
+                </div>
+                <div id="resumecontent" style="display: none;">
+                    resume
+                </div>
+                <div id="projectcontent" style="display: none;">
+                    project
                 </div>
             </div>
         </main>

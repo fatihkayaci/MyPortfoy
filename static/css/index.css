@@ -11,7 +11,6 @@ body, html
 {
     margin: 0;
     padding: 0;
-    height: 98%;
 }
 body
 {
@@ -124,7 +123,7 @@ body
     content: "";
     display: block;
     clear: both;
-  }
+}
   
 .menu ul
 {
@@ -148,6 +147,10 @@ body
     padding: 5px 10px;
     border: none;
     cursor: pointer;
+}
+#aboutme
+{
+    background-color : rgb(81, 79, 79);
 }
 .menu button p:hover
 {
@@ -186,6 +189,15 @@ body
 .development div p
 {
     margin-top: 10px;;
+}
+.skilltable ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    list-style-type: none;
+    overflow: hidden;
 }
 /* partner css */
 a
